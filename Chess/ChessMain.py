@@ -222,7 +222,6 @@ def drawMoveLog(screen, gs, font):
 Animating a move
 '''
 def animateMove(move, screen, board, clock):
-    global colors
     coords = []  #list of coordinates that the animation will move through
     dR = move.endRow - move.startRow
     dC = move.endCol - move.startCol
